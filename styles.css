@@ -1,0 +1,18 @@
+html {
+    min-width: 950px;
+}
+
+footer {
+    background-color: lightgray;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+header .nav, footer .nav {
+    display: inline-block;
+}
+
+header .nav li, footer .nav li {
+    display: inline-block;
+}
