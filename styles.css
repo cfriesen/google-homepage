@@ -1,12 +1,15 @@
 html {
     min-width: 950px;
+    font-family: sans-serif;
+}
+
+ul {
+    margin: 0;
 }
 
 footer {
-    background-color: lightgray;
+    background-color: #d3d3d352;
     width: 100%;
-    margin: 0px;
-    padding: 0px;
 }
 
 header .nav, footer .nav {
@@ -15,4 +18,11 @@ header .nav, footer .nav {
 
 header .nav li, footer .nav li {
     display: inline-block;
+    font-size: 15px;
+    color: #676767;
+    padding-left: 10px;
+}
+
+.pull-right {
+    float: right;
 }
