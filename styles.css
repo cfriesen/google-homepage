@@ -3,12 +3,24 @@ html {
     font-family: sans-serif;
 }
 
+main {
+    max-width: 950px;
+    margin: auto;
+}
+
+img {
+    width: 280px;
+    display: block;
+    margin: auto;
+    margin-top: 150px;
+}
+
 ul {
     margin: 0;
 }
 
 header, footer {
-    padding: 10px 20px;
+    padding: 12px 20px;
 }
 
 footer {
@@ -16,6 +28,11 @@ footer {
     width: 100%;
     position: absolute;
     bottom: 0;
+    border-top: 1px solid lightgray;
+}
+
+header {
+    padding-top: 22px;
 }
 
 header .nav, footer .nav {
@@ -33,4 +50,12 @@ header .nav li, footer .nav li {
 .pull-right {
     float: right;
     padding-right: 30px;
+}
+
+input {
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 30px;
+    margin-top: 20px;
 }
