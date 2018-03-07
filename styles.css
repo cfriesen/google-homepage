@@ -1,6 +1,7 @@
 html {
     min-width: 950px;
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 main {
@@ -20,7 +21,7 @@ ul {
 }
 
 header, footer {
-    padding: 12px 20px;
+    padding: 12px 30px;
 }
 
 footer {
@@ -52,10 +53,34 @@ header .nav li, footer .nav li {
     padding-right: 30px;
 }
 
+button {
+    font-size: 13px;
+    padding: 10px;
+    background-color: whitesmoke;
+    font-weight: 700;
+    color: gray;
+    border: 0px;
+}
+
+button:hover {
+    box-shadow: 1px 1px 1px 1px grey;
+    color: grey;
+}
+
+#search_button {
+    margin-right: 10px;
+}
+
+#buttons {
+    width: 264px;
+    margin: auto;
+}
+
 input {
     display: block;
     margin: auto;
     width: 400px;
     height: 30px;
     margin-top: 20px;
+    margin-bottom: 30px;
 }
