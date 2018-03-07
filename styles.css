@@ -34,12 +34,16 @@ footer {
 
 header {
     padding-top: 22px;
+    padding-right: 0px;
+}
+
+header .pull-right {
+    padding-right: 5px;
 }
 
 header .nav, footer .nav {
     display: inline-block;
     position: relative;
-    align-content: space-between;
 }
 
 header .nav li, footer .nav li {
@@ -51,6 +55,20 @@ header .nav li, footer .nav li {
 .pull-right {
     float: right;
     padding-right: 30px;
+}
+
+#user_icon {
+    background-color: saddlebrown;
+    color: white;
+    height: 30px;
+    width: 30px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+#user_icon h1 {
+    padding-top: 6px;
+    padding-left: 8px;
 }
 
 button {
