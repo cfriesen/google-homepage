@@ -4,6 +4,18 @@ html {
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:active {
+    text-decoration-color: grey;
+}
+
 main {
     max-width: 950px;
     margin: auto;
@@ -50,6 +62,7 @@ header .nav li, footer .nav li {
     display: inline-block;
     font-size: 13px;
     margin-right: 13px;
+    color: black;
 }
 
 .pull-right {
@@ -71,18 +84,30 @@ header .nav li, footer .nav li {
     padding-left: 8px;
 }
 
+#user_icon :visited {
+    color: white;
+}
+
 button {
+    box-sizing: border-box;
+    border-radius: 2px;
+        border: 1px solid #f2f2f2;
     font-size: 13px;
     padding: 10px;
     background-color: whitesmoke;
     font-weight: 700;
     color: gray;
-    border: 0px;
+    border: 0px;  
 }
 
 button:hover {
-    box-shadow: 1px 1px 1px 1px grey;
-    color: grey;
+    box-sizing: border-box;
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+button :visited {
+    color: gray;
 }
 
 #search_button {
@@ -101,4 +126,5 @@ input {
     height: 30px;
     margin-top: 20px;
     margin-bottom: 30px;
+    font-size: 18px;
 }
